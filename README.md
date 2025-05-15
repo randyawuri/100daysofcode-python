@@ -63,4 +63,25 @@ Write a program that evaluates the following between 2 booleans(True or False):
 ### While Loop ###
     - Write a program to calculate the factorial of a given number.
 
+## Day 6: Functions and Code Reusability ##
+### Simple Function ### 
+     - Define and call a simple function greet_user which takes name as a parameter. The function should print 'Hello, name' to the console.
 
+### Default and Keyword Arguments ###
+    - Update the greet_user function by adding a default value 'Guest' for the name parameter. When the function is called without an argument it should print 'Hello, Guest' to the console.
+
+### Function with Return Values ###
+    - Write a function that calculates and returns the area of a rectangle. The function should take length and breadth as the arguments.
+
+## Day 7: Lists and Tuples ##
+### Lists ###
+    -   Create a list of 5 elements
+    -   Use both positive and negative indices to retrieve items from the list.
+    -   Append, insert, remove, or update elements using built-in methods.
+    -   Use slicing to create sublists by selecting a specific range of elements.
+    -   Iterate Through the List: Use loops (like for or while) to go through each item and perform operations on them.
+### Tuples ###
+    -   Define a tuple containing different types of data, such as strings, numbers, or booleans.
+    -   Retrieve elements using index positions.
+    -   Perform operations like concatenation (+) and repetition (*), or check membership with in.
+    -   convert tuple into a list, make the changes, and convert it back if needed.
