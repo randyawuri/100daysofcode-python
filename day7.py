@@ -46,3 +46,7 @@ numbers = sorted([x for x in mylist if isinstance(x, (int, float))]) # sort a nu
 print(numbers)
 sorted_list = numbers + string_list # combine both sorted lists #
 print(sorted_list)
+
+# create a tuple by converting mylist to a tuple #
+mytuple = tuple(mylist)
+print(f"New tuple: {mytuple}")
