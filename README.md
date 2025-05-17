@@ -85,3 +85,17 @@ Write a program that evaluates the following between 2 booleans(True or False):
     -   Retrieve elements using index positions.
     -   Perform operations like concatenation (+) and repetition (*), or check membership with in.
     -   convert tuple into a list, make the changes, and convert it back if needed.
+
+## Day 8: Sets and Dictionary ##
+### Sets ###
+    -   Define a set with multiple elements, including duplicates, and observe how duplicates are automatically removed.
+    -   Add and Remove Items: Use add() to insert elements and remove() or discard() to delete them.
+    -   Set Operations: perform mathematical set operations like union(), intersection(), and difference().
+    -   Loop Through a Set: Use a loop to iterate over the elements in a set.
+
+### Dictionaries ###
+    -   Define a dictionary with keys and corresponding values.
+    -   Access Values: Use a key to retrieve the associated value using square brackets or the get() method.
+    -   Update and Add Items: Modify existing key-value pairs or add new ones.
+    -   Remove Items: Use methods like pop() or del to remove entries from the dictionary.
+    -   Loop Through a Dictionary: Iterate through keys, values, or both using a for loop with .items(), .keys(), or .  values().
