@@ -1,4 +1,3 @@
-"""
 # define a set with multiple values including duplicates #
 myset = {"Shola", "Tony", "Shola", "Tobe", "David", "Nonso", "Nonso"}
 print(myset)
@@ -50,7 +49,7 @@ print("Students who are in either of the courses but not both: ", chem_set ^ bio
 for student in students:
     if student.startswith("S"):
         print(f"{student}")
-"""
+
 car = {
     "brand": "Toyota",
     "model": "Camry",
@@ -59,10 +58,16 @@ car = {
 print(type(car))
 
 # define a dictionary that consists of data from a small e-commerce product catalogue #
-prod_log = {
+prod_log ={
     "P001": {"name": "Wireless Mouse", "price": 25.99, "stock": 34},
     "P002": {"name": "Keyboard", "price": 45.00, "stock": 20},
     "P003": {"name": "USB-C Cable", "price": 9.99, "stock": 100},
     "P004": {"name": "Monitor", "price": 159.49, "stock": 10},
 }
 print(prod_log)
+
+# loop through the catalogue and print products with prices lower that 50 #
+for product_id in prod_log:
+    product = prod_log[product_id]
+    if product["price"] <= 50:
+        print(f"{product_id}:  {product["price"]}")
