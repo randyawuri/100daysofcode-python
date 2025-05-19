@@ -99,3 +99,19 @@ Write a program that evaluates the following between 2 booleans(True or False):
     -   Update and Add Items: Modify existing key-value pairs or add new ones.
     -   Remove Items: Use methods like pop() or del to remove entries from the dictionary.
     -   Loop Through a Dictionary: Iterate through keys, values, or both using a for loop with .items(), .keys(), or .  values().
+
+## Day 9: Random number generator ##
+    -   Write a program that generates a random number.
+    -   Write a program that generates random number between 2 integers.
+
+## Day 10: For-loop ##
+    -   Use a for loop to print numbers from 1 to 10
+
+## Day 11: While-loop ##
+    -   Use a while loop to print even numbers from 2 to  20
+
+## Day 12: Odd-even ##
+    -   Write a program to check if a number is even or odd.
+
+## Day 13: Largest of three numbers ###
+    -   A program that finds the largest of three numbers
