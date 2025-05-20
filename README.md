@@ -115,3 +115,9 @@ Write a program that evaluates the following between 2 booleans(True or False):
 
 ## Day 13: Largest of three numbers ###
     -   A program that finds the largest of three numbers
+
+## Day 14:  Leap Year ##
+    -   Write a program that checks if a given input year is a leap year or not
+
+## Day 15: Factorial ##
+    -   Write a function to calculate the factorial of a number.
