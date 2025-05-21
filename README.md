@@ -121,3 +121,9 @@ Write a program that evaluates the following between 2 booleans(True or False):
 
 ## Day 15: Factorial ##
     -   Write a function to calculate the factorial of a number.
+
+## Day 16: Palindrome String ##
+    -   A function to check if a given string is a palindrome.
+
+## Day 17: Number of vowels in a string ##
+    -   A function to count the number of vowels in a string.
