@@ -9,13 +9,16 @@
 """
 
 def vowel_count():
-    text = str(input("Enter text: "))
-    vowels = ["a", "e", "i", "o", "u"]
-    count = 0
+    text = str(input("Enter word/sentence/paragraph: ")) # get text input from user #
+    vowels = ["a", "e", "i", "o", "u"] # creates a list of vowels #
+    text_lower = text.lower() # converts all characters from user's text to lowercase
 
-    for i in text.lower():
-        if i in vowels:
-            count += 1
-    return count
+    vowels_found = {char for char in text_lower if char in vowels} # creates a dictionary of unique vowels found in text #
+    total_unique_vowels = len(vowels_found) # counts and records total number of unique vowels
 
-print("Number of vowels: ", vowel_count())
+    print("Total unique vowels found: ", total_unique_vowels) # prints total unique vowels found #
+    print("Vowels found: ") # loops through text and prints vowels found
+    for vowel in vowels_found:
+        print(f" {vowel}")
+
+vowel_count() # calls  the function
