@@ -127,3 +127,6 @@ Write a program that evaluates the following between 2 booleans(True or False):
 
 ## Day 17: Number of vowels in a string ##
     -   A function to count the number of vowels in a string.
+
+## Day 18: List Sum ##
+    -   A function to find the sum of all elements in a list.
